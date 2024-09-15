@@ -33,7 +33,12 @@ section {
     margin: auto;
 }
 
+#portfolio{
+    text-align: center;
+    font-size: 20px;
+}
 .portfolio-item {
+    text-align: center;
     background: #fff;
     margin-bottom: 1rem;
     padding: 1rem;
@@ -76,16 +81,22 @@ footer {
 .contact-info a:hover {
     text-decoration: underline;
 }
+#about {
+    text-align: center;
+    font-size: 25px;
+}
 .about-container {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
+    text-align: center;
 }
 
 .avatar {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    margin-left: 10%;
+    border-radius: 10%;
+    width: 275px;
+    height: 350px;
     object-fit: cover;
 }
 
