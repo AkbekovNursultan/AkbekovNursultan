@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\contact.css">
+    <link rel="stylesheet" href="css\portfolio.css">
+    <link rel="stylesheet" href="css\skills.css">
 </head>
 <body>
 
@@ -13,6 +16,7 @@
     <nav>
         <a href="#about">About Me</a>
         <a href="#portfolio">Portfolio</a>
+        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
@@ -20,29 +24,58 @@
 <section id="about">
     <h2>About Me</h2>
     <div class="about-container">
-        <img src="img\AvaReal.jpg" alt="My Avatar" class="avatar">
-        <p>Hi i am Akbekov Nursultan, a pessimistic, toxic and rude moron who apparently forgot how to joke properly. Nevertheless, I am learning Java, HTML, CSS, Unity (just started) to create some useless projects. Take a look at my meaningless CV and whatever :|</p>
+        <img src="img\profile.jpg" alt="My Avatar" class="avatar">
+        <p>Hi, I’m Akbekov Nursultan. I’m currently pursuing a bachelor’s degree in Computer Science at AIU. Learning Java, HTML, CSS, and Unity(just started). There is nothing else to tell you about me, so keep scrolling. Feel free to explore my CV.</p>
     </div>
 </section>
 
 <section id="portfolio">
     <h2>My Projects</h2>
     <div class="portfolio-item">
-        <h3>Seabattle</h3>
+        <h3>E-Commerce</h3>
         <img src="img\ecom1.jpg" alt="Project 1">
+        <p><a href="https://github.com/AkbekovNursultan/eCommerce" target="_blank">Github: ECommerce</a></p>
         <p>This Java Spring Boot E-Commerce app delivers a smooth shopping experience with AWS integration for scalability and mail-sending for customer updates. It includes core features such as product management, user accounts, and a shopping cart, demonstrating effective use of modern web technologies.</p>
     </div>
     <div class="portfolio-item">
         <h3>Leetcode/Codewars Lite</h3>
         <img src="img\LC.jfif" alt="Project 2">
+        <p><a href="https://github.com/AkbekovNursultan/CodeWars" target="_blank">Github: LeetCode/CodeWars</a></p>
         <p>This project is a simplified version of Leetcode/Codewars, built with Java Spring Boot. It features coding exercises and user progress tracking, uses Flyway for smooth database migrations, and supports multiple languages through i18n. Integrated with AWS for scalability, it demonstrates effective use of modern technologies in a localized coding challenge platform.</p>
     </div>
-    
-    
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <button id="showSkills" aria-expanded="false">Show Skills</button>
+    <div id="skillsList" style="display:none;">
+    <div class="skills-container">
+        <div class="skill-category">
+            <h3>Hard Skills</h3>
+            <ul>
+                <li>Java Development</li>
+                <li>HTML & CSS</li>
+                <li>Spring Boot</li>
+                <li>Java Hibernate and JDBC</li>
+                <li>Database Management (Flyway)</li>
+                <li>Unity (Beginner)</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Calm behaviour</li>
+                <li>Public Speaking</li>
+                <li>Team Collaboration</li>
+                <li>Active Listening</li>
+            </ul>
+            <img src="img/Me.jpg" alt="Skills Icon" class="skills-image hidden">
+        </div>
+    </div>
 </section>
 
 <section id="contact">
-    <h2>Get in touch with us!</h2>
+    <h2>Contact me</h2>
     <div class="contact-info">
         <p><strong>Email:</strong> <a href="mailto:nursultan.akbekov@alatoo.edu.kg">nursultan.akbekov@alatoo.edu.kg</a></p>
         <p><strong>Phone:</strong>+996 700 44 22 00</p>
@@ -53,6 +86,9 @@
 <footer>
     <p>&copy; 2024 My Portfolio</p>
 </footer>
+
+
+<script src="scripts.js"></script>
 
 </body>
 </html>

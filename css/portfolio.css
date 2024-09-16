@@ -1,0 +1,23 @@
+#portfolio{
+    text-align: center;
+    font-size: 20px;
+}
+.portfolio-item {
+    text-align: center;
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.portfolio-item img {
+    object-fit: cover;
+    border-radius: 8px;
+    border-radius: 8px;
+}
+.portfolio-item p{
+    margin-left: 7%;
+    margin-right: 7%;
+    line-height: 30px;
+}
