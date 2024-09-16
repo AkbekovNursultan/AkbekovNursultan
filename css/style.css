@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
@@ -47,8 +47,14 @@ section {
 }
 
 .portfolio-item img {
-    max-width: 100%;
+    object-fit: cover;
     border-radius: 8px;
+    border-radius: 8px;
+}
+.portfolio-item p{
+    margin-left: 7%;
+    margin-right: 7%;
+    line-height: 30px;
 }
 
 footer {
@@ -81,15 +87,20 @@ footer {
 .contact-info a:hover {
     text-decoration: underline;
 }
-#about {
+#about h2{
+    font-size: 60px;
     text-align: center;
-    font-size: 25px;
 }
 .about-container {
     display: flex;
     align-items: center;
     gap: 3rem;
     text-align: center;
+}
+.about-container p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 .avatar {
@@ -98,12 +109,4 @@ footer {
     width: 275px;
     height: 350px;
     object-fit: cover;
-}
-
-.bio {
-    max-width: 600px;
-}
-.bio p {
-    font-size: 1rem;
-    line-height: 1.5;
 }
